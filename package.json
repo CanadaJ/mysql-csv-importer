@@ -1,0 +1,24 @@
+{
+  "name": "mysql-csv-importer",
+  "version": "0.0.1",
+  "description": "Imports .csv files into a mysql db",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js G:\\data\\csvtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CanadaJ/mysql-csv-importer.git"
+  },
+  "author": "CanadaJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CanadaJ/mysql-csv-importer/issues"
+  },
+  "homepage": "https://github.com/CanadaJ/mysql-csv-importer#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "mysql": "^2.16.0"
+  }
+}
